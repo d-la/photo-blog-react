@@ -1,0 +1,22 @@
+.gallery{
+    display: block;
+    position: relative;
+    max-width: 70em;
+    width: 100%;
+    margin: 2em auto;
+
+    &__image{
+        display: inline-block;
+        width: 50%;
+
+        img{
+            height: 15em;
+            width: 15em;
+            max-width: 100%;
+
+            &:hover{
+                opacity: .7;
+            }
+        }
+    }
+}
